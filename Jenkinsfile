@@ -6,7 +6,7 @@ pipeline{
                bat 'mvn clean package -DskipTests=true'
             }    
         }
-        stage('Sonar Analysis'){
+        stage('Unit Testes'){
             steps{
                bat 'mvn test'
             }    

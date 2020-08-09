@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Quality Gate') {
             steps {
-                sleep(10) {
+                sleep(30) {
                     // on interrupt do
                 }
                 timeout(time: 1, unit:'MINUTES') {
